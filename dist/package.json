@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Reinard Harenberg","email":"reinardharenberg@gmail.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/kpiFallersChart5B2E2CBF6BC74CDC87763075FD2C84A5.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"kpiFallersChart","displayName":"kpiFallersChart","guid":"kpiFallersChart5B2E2CBF6BC74CDC87763075FD2C84A5","visualClassName":"Visual","version":"1.0.0","description":"kpi fallers Chart","supportUrl":"no thanks","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

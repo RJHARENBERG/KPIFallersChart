@@ -1,0 +1,39 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "id",
+            "name": "id",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "fallers",
+            "name": "fallers",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "fallers text",
+            "name": "fallers text",
+            "kind": "Measure"
+        }
+    ],
+
+    "objects": {},
+
+    "dataViewMappings": [{
+        "table": {
+            "rows": {
+                "select": [
+                    {
+                        "bind": {"to": "id"}
+                    },
+                    {
+                        "bind": {"to": "fallers"}
+                    },
+                    {
+                        "bind": {"to": "fallers text"}
+                    }
+                ]
+            }
+        }
+    }]
+}
